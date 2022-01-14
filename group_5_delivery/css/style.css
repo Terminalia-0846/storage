@@ -28,7 +28,6 @@ img, svg {
 }
 
 .cd-header {
-  height: 140px;
   border-bottom: 1px solid #e6e6e6;
   text-align: center;
   padding-top: 24px;
@@ -40,7 +39,6 @@ img, svg {
 }
 @media only screen and (min-width: 1100px) {
   .cd-header {
-    height: 250px;
     padding-top: 70px;
   }
   .cd-header h1 {
@@ -49,14 +47,18 @@ img, svg {
 }
 
 .cd-footer {
-  height: 250px;
   background-color: #141414;
   text-align: center;
 }
 .cd-footer p {
   font-family: Georgia, serif;
   font-size: 1.8rem;
-  line-height: 250px;
+  line-height: 50px;
+}
+
+.cd-footer li{
+    font-size:1rem;
+    line-height:30px;
 }
 
 /* -------------------------------- 
@@ -151,6 +153,11 @@ Articles
   .cd-articles p {
     font-size: 1.8rem;
   }
+}
+
+mark {
+    background-color:#99CCFF;
+    color:#333333;
 }
 
 /* -------------------------------- 

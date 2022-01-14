@@ -16,14 +16,14 @@
                     }
                     .folder-structure p {
                         padding: 1rem;
-                        border:solid 2px #ccc;
+                        border:solid 2px #6699CC;
                         border-radius:5px;
                         margin:0px;
                         font-size:15px;
                     }
 
                     .folder-structure li::before {
-                        border-left: 1px solid rgba(0, 0, 0, 0.3);
+                        border-left: 1px solid #6699CC;
                         content: '';
 
                         /* Position */
@@ -37,7 +37,7 @@
                     }
 
                     .folder-structure li::after {
-                        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+                        border-bottom: 1px solid #6699CC;
                         content: '';
 
                         /* Position */
